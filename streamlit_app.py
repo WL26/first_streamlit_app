@@ -42,7 +42,7 @@ except URLError as e:
     streamlit.error()
     
 # don't run anything past here while we troubleshott
-streamlit.stop()
+#streamlit.stop()
 
 streamlit.header ("The fuit load list contains:")
 #Snowflake-realted functions
